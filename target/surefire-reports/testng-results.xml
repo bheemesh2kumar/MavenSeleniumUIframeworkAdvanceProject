@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-04T16:06:51 IST" name="Suite" finished-at="2022-08-04T16:07:13 IST" duration-ms="21515">
+    <groups>
+    </groups>
+    <test started-at="2022-08-04T16:06:51 IST" name="Test" finished-at="2022-08-04T16:07:13 IST" duration-ms="21515">
+      <class name="regressiontests.ZooplaLoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:regressiontests.ZooplaLoginPageTest@5824a83d]" started-at="2022-08-04T16:06:51 IST" name="setup" finished-at="2022-08-04T16:07:03 IST" duration-ms="11971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateifuserlogsintoZoopaHomepage()[pri:0, instance:regressiontests.ZooplaLoginPageTest@5824a83d]" started-at="2022-08-04T16:07:03 IST" name="validateifuserlogsintoZoopaHomepage" finished-at="2022-08-04T16:07:12 IST" duration-ms="8509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateifuserlogsintoZoopaHomepage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:regressiontests.ZooplaLoginPageTest@5824a83d]" started-at="2022-08-04T16:07:12 IST" name="teardown" finished-at="2022-08-04T16:07:13 IST" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- regressiontests.ZooplaLoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
