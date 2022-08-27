@@ -11,7 +11,7 @@ public class ZooplaHomePage extends BasePage {
     }
 
 
-    @FindBy(how = How.CSS, using = "div.PJLV.PJLV-ieDcChf-css>div>ul>li:last-of-type>a>span")
+    @FindBy(how = How.CSS, using = "main#main-content>div:first-of-type>div>div>div>div:first-of-type>div>a>span")
     public WebElement MyZooplalableText;
 
     @FindBy(how = How.CSS, using = "div.c-PJLV.c-PJLV-icHtgLL-css>ul>li:first-of-type>a")

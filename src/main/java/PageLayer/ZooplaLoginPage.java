@@ -9,13 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ZooplaLoginPage extends BasePage {
 
-
-    public ZooplaLoginPage() {
-
-    }
-
-
-    @FindBy(how = How.XPATH, using = "//*[@id=\"__next\"]/header/div/div/nav/div[3]/div/ul/li[3]/a/span")
+    @FindBy(how = How.CSS, using = "nav[data-testid='header']>div:nth-of-type(3)>div:last-of-type>ul>li:nth-of-type(3)>a")
     public WebElement signlink;
 
     @FindBy(how = How.CSS, using = "input[data-testid='email-field-input']")

@@ -41,6 +41,16 @@ public class ZooplaLoginPageTest extends FrameworkIntialize {
     }
 
 
+    @Test
+    public void validateversioList() throws Exception {
+        ZooplaLoginPage zooplaLoginPage = getInstance(ZooplaLoginPage.class);
+        currentPage = zooplaLoginPage.logintoZoopla("manu.bheemesh@gmail.com", "@satyarao1");
+        Thread.sleep(5000);
+        String myzooplaLable = currentPage.as(ZooplaHomePage.class).MyZooplalableText.getText();
+        System.out.println("Hello user you logged in successfully and use me if your u want you out" + " " + myzooplaLable);
+    }
+
+
     @AfterMethod
     public void teardown() {
         DriverContext.driver.quit();
