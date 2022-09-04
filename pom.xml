@@ -74,12 +74,12 @@
         </pluginManagement>
     </build>
 
-    <distributionManagement>
+    <!--<distributionManagement>
         <repository>
             <id>artifactory</id>
             <name>sampleProject</name>
             <url>https://bheemtesting.jfrog.io/artifactory/mbr-libs-snapshot-local/</url>
         </repository>
-    </distributionManagement>
+    </distributionManagement>-->
 
 </project>
