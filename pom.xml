@@ -77,7 +77,7 @@
     <distributionManagement>
         <repository>
             <id>central</id>
-            <name>  releases</name>
+            <name>releases</name>
             <url>https://bheemtesting.jfrog.io/artifactory/mbr-libs-release-local</url>
         </repository>
 
