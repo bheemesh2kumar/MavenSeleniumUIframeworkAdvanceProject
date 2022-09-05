@@ -82,7 +82,7 @@
         </repository>
 
         <snapshotRepository>
-            <id>snapshots</id>
+            <id>central</id>
             <name>snapshots</name>
             <url>https://bheemtesting.jfrog.io/artifactory/mbr-libs-snapshot-local</url>
         </snapshotRepository>
