@@ -74,12 +74,18 @@
         </pluginManagement>
     </build>
 
-    <!--<distributionManagement>
+    <distributionManagement>
         <repository>
-            <id>artifactory</id>
-            <name>sampleProject</name>
-            <url>https://bheemtesting.jfrog.io/artifactory/mbr-libs-snapshot-local/</url>
+            <id>central</id>
+            <name>  releases</name>
+            <url>https://bheemtesting.jfrog.io/artifactory/mbr-libs-release-local</url>
         </repository>
-    </distributionManagement>-->
+
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>snapshots</name>
+            <url>https://bheemtesting.jfrog.io/artifactory/mbr-libs-snapshot-local</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
